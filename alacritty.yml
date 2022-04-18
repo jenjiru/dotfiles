@@ -280,15 +280,15 @@ font:
   #  background: CellForeground
 
   # Normal colors
-  #normal:
-  #  black:   '#1d1f21'
-  #  red:     '#cf2323'
-  #  green:   '#7de22d'
-  #  yellow:  '#fffd41'
-  #  blue:    '#2424ff'
-  #  magenta: '#f117f1'
-  #  cyan:    '#35e2dc'
-  #  white:   '#f4f4f4'
+  normal:
+    black:   '#1d1f21'
+    red:     '#cf2323'
+    green:   '#7de22d'
+    yellow:  '#fffd41'
+    blue:    '#2424ff'
+    magenta: '#f117f1'
+    cyan:    '#35e2dc'
+    white:   '#f4f4f4'
 
   # Bright colors
   #bright:
