@@ -283,12 +283,12 @@ font:
   #normal:
   #  black:   '#1d1f21'
   #  red:     '#cf2323'
-  #  green:   '#b5bd68'
-  #  yellow:  '#f0c674'
-  #  blue:    '#81a2be'
-  #  magenta: '#b294bb'
-  #  cyan:    '#32c6b2'
-  #  white:   '#c5c8c6'
+  #  green:   '#7de22d'
+  #  yellow:  '#fffd41'
+  #  blue:    '#2424ff'
+  #  magenta: '#f117f1'
+  #  cyan:    '#35e2dc'
+  #  white:   '#f4f4f4'
 
   # Bright colors
   #bright:
