@@ -1,3 +1,15 @@
+alias ..='cd ..'
+
+#alias mv='mv -i'
+#alias rm='rm -i'
+
+alias yay='paru'
+#alias cat='bat'
+#alias grep='rg'
+
 alias nano='nvim'
+alias v='nvim'
 alias vi='nvim'
 alias vim='nvim'
+
+alias la='ls -lA'
