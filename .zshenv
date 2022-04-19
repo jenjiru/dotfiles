@@ -8,6 +8,7 @@ export PATH=~/.local/bin/:~/.local/bin/npm-global/bin:$PATH
 
 # cleaning up home folder
 export XDG_CONFIG_HOME="$HOME/.config"
+export HISTFILE="$HOME/.config/bash"
 #export XDG_DATA_HOME="$HOME/.local/share"
 export XINITRC="$XDG_CONFIG_HOME"/X11/xinitrc
 #export NOTMUCH_CONFIG="${XDG_CONFIG_HOME:-$HOME/.config}/notmuch-config"
