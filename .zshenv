@@ -23,6 +23,9 @@ export ZDOTDIR="$HOME/.config/zsh"
 #export WINEPREFIX="$XDG_DATA_HOME"/wineprefixes/default
 #export PARALLEL_HOME="$XDG_CONFIG_HOME"/parallel
 
+xrandr --output Virtual1 --mode 1920x1080
+
+
 # lf icons
 #export LF_ICONS="\
 #tw=:\
