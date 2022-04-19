@@ -185,5 +185,5 @@ export ZDOTDIR="$HOME/.config/zsh"
 #*.xspf=:\
 #*.pdf=:\
 #*.nix=:\
-"
+#"
 #export LC_ALL=en_US.UTF-8
