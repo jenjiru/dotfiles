@@ -2,7 +2,7 @@
 typeset -U PATH path
 
 # updating xdg-user-dirs
-xdg-user-dirs-update
+#xdg-user-dirs-update
 
 # default apps
 export EDITOR="nvim"
@@ -29,6 +29,7 @@ export ZDOTDIR=$HOME/.config/zsh
 export HISTFILE="$XDG_DATA_HOME"/zsh/history
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
 export RIPGREP_CONFIG_PATH="$XDG_CONFIG_HOME/ripgrep/ripgreprc"
+export WGETRC="${XDG_CONFIG_HOME:-$HOME/.config}/wget/wgetrc"
 
 xrandr --output Virtual1 --mode 1920x1080
 
