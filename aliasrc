@@ -13,8 +13,3 @@ alias vi='nvim'
 alias vim='nvim'
 
 alias la='ls -A'
-
-
-
-# cleaning ~
-alias wget='wget --hsts-file="$XDG_CACHE_HOME/wget-hsts"'
