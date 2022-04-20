@@ -30,8 +30,8 @@ draw_bold_text_with_bright_colors: true
 
 colors:
   primary:
-    background: "#0e0f14"
-    foreground: "#d5e1e2"
+    background: "#11121D"
+    foreground: "#e0e5e6"
   normal:
     black: "#32344a"
     red: "#f7768e"
