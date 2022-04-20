@@ -27,6 +27,7 @@ export HISTFILE="$XDG_DATA_HOME"/zsh/history
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
 export RIPGREP_CONFIG_PATH="$XDG_CONFIG_HOME/ripgrep/ripgreprc"
 
+xrandr --output Virtual1 --mode 1920x1080
 
 # cleaning ~
 #export ZDOTDIR="$HOME/.config/zsh"
