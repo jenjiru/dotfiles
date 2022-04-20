@@ -1,6 +1,9 @@
 # Path
 typeset -U PATH path
 
+# updating xdg-user-dirs
+xdg-user-dirs-update
+
 # default apps
 export EDITOR="nvim"
 export TERMINAL="alacritty"
