@@ -30,7 +30,7 @@ draw_bold_text_with_bright_colors: true
 
 colors:
   primary:
-    background: "#11121D"
+    background: "#0e0f14"
     foreground: "#d5e1e2"
   normal:
     black: "#32344a"
@@ -42,6 +42,15 @@ colors:
     cyan: "#449dab"
     white: "#787c99"
   bright:
+    black: "#444b6a"
+    red: "#ff7a93"
+    green: "#b9f27c"
+    yellow: "#ff9e64"
+    blue: "#7da6ff"
+    magenta: "#bb9af7"
+    cyan: "#0db9d7"
+    white: "#acb0d0"
+  dim:
     black: "#444b6a"
     red: "#ff7a93"
     green: "#b9f27c"
