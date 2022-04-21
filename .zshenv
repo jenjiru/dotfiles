@@ -29,7 +29,5 @@ export RIPGREP_CONFIG_PATH="$XDG_CONFIG_HOME/ripgrep/ripgreprc"
 export WGETRC="${XDG_CONFIG_HOME:-$HOME/.config}/wget/wgetrc"
 export LESSHISTFILE="-"
 
-xrandr --output Virtual1 --mode 1920x1080
-
 # cleaning ~
 #export ZDOTDIR="$HOME/.config/zsh"
