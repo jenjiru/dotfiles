@@ -1,2 +1,2 @@
 xrandr --output Virtual1 --mode 1920x1080
-nitrogen --restore
+nitrogen --set-auto ~/Pictures/wallpaper/doge.png
