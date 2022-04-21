@@ -1,2 +1,2 @@
 xrandr --output Virtual1 --mode 1920x1080
-#nitrogen --set-auto ~/Pictures/wallpaper/doge.png
+feh --bg-fill ~/Pictures/wallpaper/doge.png
