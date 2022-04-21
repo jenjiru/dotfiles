@@ -1,7 +1,7 @@
 alias ..='cd ..'
 
-#alias mv='mv -i'
-#alias rm='rm -i'
+alias mv='mv -i'
+alias rm='rm -i'
 
 alias yay='paru'
 #alias cat='bat'
