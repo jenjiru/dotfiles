@@ -4,6 +4,7 @@ alias mv='mv -i'
 alias rm='rm -i'
 
 alias yay='paru'
+alias htop='btop'
 #alias cat='bat'
 #alias grep='rg'
 
