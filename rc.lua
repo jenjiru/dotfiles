@@ -521,3 +521,4 @@ beautiful.useless_gap = 5
 -- autostart
 --awful.spawn.with_shell("picom")
 awful.spawn.with_shell("nitrogen --set-zoom-fill --restore")
+awful.spawn.with_shell("xrandr --output Virtual1 --mode 1920x1080")
