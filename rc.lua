@@ -555,9 +555,9 @@ client.connect_signal("request::titlebars", function(c)
 end)
 
 -- Enable sloppy focus, so that focus follows mouse.
-client.connect_signal("mouse::enter", function(c)
-    c:emit_signal("request::activate", "mouse_enter", {raise = false})
-end)
+--client.connect_signal("mouse::enter", function(c)
+--    c:emit_signal("request::activate", "mouse_enter", {raise = false})
+--end)
 
 client.connect_signal("focus", function(c) c.border_color = beautiful.border_focus end)
 client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
@@ -568,4 +568,4 @@ beautiful.useless_gap = 5
 
 -- autostart
 --awful.spawn.with_shell("picom")
-awful.spawn.with_shell("nitrogen --restore")
+awful.spawn.with_shell("nitrogen --set-zoom-fill --restore")
