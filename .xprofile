@@ -1,2 +1,2 @@
 xrandr --output Virtual1 --mode 1920x1080
-exec ~/.config/start/wallpaper.sh & #This doesn't blocks!
+#exec ~/.config/start/wallpaper.sh & #This doesn't blocks!
