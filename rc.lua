@@ -516,9 +516,6 @@ client.connect_signal("focus", function(c) c.border_color = beautiful.border_foc
 client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
 -- }}}
 
--- Gaps
-beautiful.useless_gap = 6
-
 -- autostart
 --awful.spawn.with_shell("picom")
 --awful.spawn.with_shell("xrandr --output Virtual-1 --mode 1920x1080")
