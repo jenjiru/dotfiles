@@ -1,1 +1,2 @@
+echo "Updating Login-Manager Theme"
 sudo cp -r ~/umi-tmp/localstorage/ /var/lib/lightdm/.local/share/webkitgtk/
