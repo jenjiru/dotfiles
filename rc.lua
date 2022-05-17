@@ -518,6 +518,6 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 
 -- autostart
 --awful.spawn.with_shell("picom")
-awful.spawn.with_shell("sudo cp -r ~/umi-tmp/localstorage /var/lib/lightdm/.local/share/webkitgtk/")
+--awful.spawn.with_shell("sudo cp -r ~/umi-tmp/localstorage /var/lib/lightdm/.local/share/webkitgtk/")
 awful.spawn.with_shell("nitrogen --set-zoom-fill --restore")
 awful.spawn.with_shell("solaar -w hide")
