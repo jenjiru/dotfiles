@@ -1,6 +1,6 @@
 # GRUB boot loader configuration
 
-GRUB_DEFAULT=0
+GRUB_DEFAULT=saved
 GRUB_TIMEOUT=5
 GRUB_DISTRIBUTOR="Arch"
 GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet"
@@ -51,10 +51,10 @@ GRUB_DISABLE_RECOVERY=true
 
 # Uncomment to make GRUB remember the last selection. This requires
 # setting 'GRUB_DEFAULT=saved' above.
-#GRUB_SAVEDEFAULT=true
+GRUB_SAVEDEFAULT=true
 
 # Uncomment to disable submenus in boot menu
-#GRUB_DISABLE_SUBMENU=y
+GRUB_DISABLE_SUBMENU=y
 
 # Probing for other operating systems is disabled for security reasons. Read
 # documentation on GRUB_DISABLE_OS_PROBER, if still want to enable this
