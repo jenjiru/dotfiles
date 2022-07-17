@@ -13,3 +13,4 @@ notify-send "Arch iso downlaod is done." -t 4000
 echo "it is the $day.$month"
 #date +%d 
 #date +%m
+kill -9 $var
