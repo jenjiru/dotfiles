@@ -4,6 +4,8 @@
 
 #day=$(date +%d)
 #month=$(date +%m)
+#year=$(date +%y)
+
 
 cd /home/$USER/Downloads
 
@@ -12,6 +14,6 @@ aria2c /home/$USER/Downloads/arch.iso.torrent --seed-time=0.01 -d /home/$USER/Do
 
 rm /home/$USER/Downloads/arch.iso.torrent
 
-notify-send "  Arch-iso" "downloaded  " -t 4000 -i /home/$USER/Pictures/50x50-arch.png
+notify-send "  Arch-iso" "downloaded  " -t 4000 -i /home/$USER/Pictures/scripts-pic/notify-arch.png
 
 kill -25 $PPID
