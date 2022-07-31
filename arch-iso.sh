@@ -7,13 +7,13 @@
 #year=$(date +%y)
 
 
-cd /home/$USER/Downloads
+cd /home/$USER/downloads
 
 curl -s 'https://archlinux.org/releng/releases/2022.07.01/torrent/' -o arch.iso.torrent
-aria2c /home/$USER/Downloads/arch.iso.torrent --seed-time=0.01 -d /home/$USER/Downloads
+aria2c /home/$USER/downloads/arch.iso.torrent --seed-time=0.01 -d /home/$USER/downloads
 
-rm /home/$USER/Downloads/arch.iso.torrent
+rm /home/$USER/downloads/arch.iso.torrent
 
-notify-send "  Arch-iso" "downloaded  " -t 4000 -i /home/$USER/Pictures/scripts-pic/notify-arch.png
+notify-send "  Arch-iso" "downloaded  " -t 4000 -i /home/$USER/pictures/scripts-pic/notify-arch.png
 
 kill -25 $PPID
