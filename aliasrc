@@ -8,9 +8,9 @@ alias ra='ranger'
 alias cat='bat'
 alias grep='rg'
 
-alias nano='nvim'
 alias v='nvim'
 alias vi='nvim'
 alias vim='nvim'
+alias nano='nvim'
 
 alias la='ls -A'
