@@ -2,14 +2,11 @@ alias sudo='sudo '
 
 alias ..='cd ..'
 
-#alias mv='mv -i'
-#alias rm='rm -i'
-
 alias yay='paru'
 alias htop='btop'
 alias ra='ranger'
-#alias cat='bat'
-#alias grep='rg'
+alias cat='bat'
+alias grep='rg'
 
 alias nano='nvim'
 alias v='nvim'
