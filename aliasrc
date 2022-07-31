@@ -14,3 +14,5 @@ alias vim='nvim'
 alias nano='nvim'
 
 alias la='ls -A'
+
+alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
