@@ -33,9 +33,8 @@ echo "$day/$month/$year"
   fi
 done
 
-#curl -fs 'https://archlinux.org/releng/releases/2022.07.01/torrent/' -o arch.iso.torrent
 aria2c $output/arch.iso.torrent --seed-time=0.01 -d $output
 
 rm $output/arch.iso.torrent
 notify-send "  Arch-iso" "downloaded  " -t 4000 -i /home/$USER/pictures/scripts-pic/notify-arch.png
-#kill -25 $PPID
+kill -25 $PPID
