@@ -2,7 +2,7 @@
 
 # Script do torrent the latest arch iso
 
-output=$HOME/music
+output=$HOME/downloads
 
 day=$(date +%d)
 month=$(date +%m)
@@ -11,7 +11,6 @@ year=$(date +%y)
 cd $output
 
 until curl -fs "https://archlinux.org/releng/releases/20$year.$month.$day/torrent/" -o arch.iso.torrent; do
-echo "$day/$month/$year"
   if [ $day -eq 1 ]
   then
 	  day=31
