@@ -10,9 +10,8 @@ year=$(date +%y)
 
 cd $output
 
-until curl -fs "https://archlinux.org/releng/releases/20$year.$month.$day/torrent/xxxx/" -o arch.iso.torrent; do
+until curl -fs "https://archlinux.org/releng/releases/20$year.$month.$day/torrent/" -o arch.iso.torrent; do
 echo "$day/$month/$year"
-
   if [ $day -eq 1 ]
   then
 	  day=31
@@ -26,7 +25,12 @@ echo "$day/$month/$year"
 	  day=`expr $day - 1`
   fi
 
-
+  if [ ${#day} -eq 1 ]; then
+	  day=0$day
+  fi
+  if [ ${#month} -eq 1 ]; then
+	  month=0$month
+  fi
 done
 
 #curl -fs 'https://archlinux.org/releng/releases/2022.07.01/torrent/' -o arch.iso.torrent
