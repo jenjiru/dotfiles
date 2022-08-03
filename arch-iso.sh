@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Script do torrent the latest arch iso
+# Script to torrent the latest arch iso
 
 output=$HOME/downloads
 
