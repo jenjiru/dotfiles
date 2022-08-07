@@ -520,3 +520,4 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 --awful.spawn.with_shell("picom")
 awful.spawn.with_shell("solaar -w hide")
 awful.spawn.with_shell("nitrogen --set-zoom-fill --restore")
+awful.spawn.with_shell("xrandr --output Virtual-1 --mode 1920x1080")
