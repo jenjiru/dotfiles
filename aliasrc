@@ -3,7 +3,6 @@ alias sudo='sudo '
 alias ..='cd ..'
 
 alias yay='paru'
-alias htop='btop'
 alias ra='ranger'
 alias cat='bat'
 alias grep='rg'
@@ -12,6 +11,9 @@ alias v='nvim'
 alias vi='nvim'
 alias vim='nvim'
 alias nano='nvim'
+
+alias background='feh --bg-scale'
+alias arch-iso='/opt/arch-iso.sh'
 
 alias la='ls -A'
 
