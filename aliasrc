@@ -15,6 +15,7 @@ alias nano='nvim'
 alias background='feh --bg-scale'
 alias arch-iso='/opt/arch-iso.sh'
 alias kvm-network='sudo virsh net-start default'
+alias audio-fix='/opt/audio-fix.sh'
 
 alias la='ls -A'
 
