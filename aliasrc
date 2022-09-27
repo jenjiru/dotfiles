@@ -5,6 +5,7 @@ alias ..='cd ..'
 alias yay='paru'
 alias ra='ranger'
 alias cat='bat'
+alias grep='rg'
 
 alias v='nvim'
 alias vi='nvim'
