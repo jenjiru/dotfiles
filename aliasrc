@@ -4,7 +4,6 @@ alias ..='cd ..'
 
 alias yay='paru'
 alias ra='ranger'
-alias cat='bat'
 alias grep='rg'
 
 alias v='nvim'
@@ -15,7 +14,6 @@ alias nano='nvim'
 alias background='feh --bg-scale'
 alias arch-iso='/opt/arch-iso.sh'
 alias kvm-network='sudo virsh net-start default'
-alias audio-fix='/opt/audio-fix.sh'
 
 alias ls='exa'
 alias la='ls -a'
