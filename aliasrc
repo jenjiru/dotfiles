@@ -17,6 +17,7 @@ alias arch-iso='/opt/arch-iso.sh'
 alias kvm-network='sudo virsh net-start default'
 alias audio-fix='/opt/audio-fix.sh'
 
-alias la='ls -A'
+alias ls='exa'
+alias la='ls -a'
 
 alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
