@@ -19,5 +19,7 @@ alias audio-fix='/opt/audio-fix.sh'
 
 alias ls='exa'
 alias la='ls -a'
+alias lsl='ls -l'
+alias lal='ls -la'
 
 alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
