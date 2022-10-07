@@ -5,6 +5,8 @@ alias ..='cd ..'
 alias yay='paru'
 alias grep='rg'
 
+alias ns='nsxiv -a'
+
 alias v='nvim'
 alias vi='nvim'
 alias vim='nvim'
