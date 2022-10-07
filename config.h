@@ -8,7 +8,7 @@ static const int WIN_HEIGHT = 600;
  * See nsxiv(1), X(7) section Resources and xrdb(1) for more information.
  */
 static const char *DEFAULT_WIN_BG     = "#0e0e0e";
-static const char *DEFAULT_WIN_FG     = "white";
+static const char *DEFAULT_WIN_FG     = "blue";
 static const char *DEFAULT_MARK_COLOR = NULL;  /* NULL means it will default to window foreground */
 #if HAVE_LIBFONTS
 static const char *DEFAULT_BAR_BG     = NULL;  /* NULL means it will default to window background */
