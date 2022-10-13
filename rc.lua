@@ -517,16 +517,21 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- }}}
 
 -- ---autostart---
+
 -- -programs-
 --awful.spawn.with_shell("redshift")
 awful.spawn.with_shell("flameshot")
 awful.spawn.with_shell("/opt/wm-program-check.sh")
 awful.spawn.with_shell("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1")
+
 -- -bg-
 awful.spawn.with_shell("~/.fehbg")
+
 -- -other-
 --awful.spawn.with_shell("alacritty -e sudo /opt/timeshift-setup.sh")
+
 -- -compositor-
 awful.spawn.with_shell("picom")
--- -monitor-
+
+-- -monitor(s)-
 awful.spawn.with_shell("xrandr --output Virtual-1 --mode 1920x1080")
