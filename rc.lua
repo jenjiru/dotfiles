@@ -517,7 +517,7 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- }}}
 
 -- autostart
---awful.spawn.with_shell("picom")
+awful.spawn.with_shell("picom")
 awful.spawn.with_shell("solaar -w hide")
 --awful.spawn.with_shell("redshift")
 awful.spawn.with_shell("flameshot")
