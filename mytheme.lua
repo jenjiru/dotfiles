@@ -15,6 +15,7 @@ theme.font          = "sans 8"
 
 theme.bg_normal     = "#10111a"
 theme.bg_focus      = "#2f364e"
+-- theme.bg_focus      = "#3c4c53"
 theme.bg_urgent     = "#ff0000"
 theme.bg_minimize   = "#444444"
 theme.bg_systray    = theme.bg_normal
@@ -24,10 +25,15 @@ theme.fg_focus      = "#ffffff"
 theme.fg_urgent     = "#ffffff"
 theme.fg_minimize   = "#ffffff"
 
-theme.useless_gap   = dpi(0)
+-- theme.useless_gap   = dpi(0)
+theme.useless_gap   = dpi(6)
 theme.border_width  = dpi(2)
 theme.border_normal = "#212121"
-theme.border_focus  = "#546394"
+-- theme.border_focus  = "#546394"
+-- theme.border_focus  = "#ffffff"
+-- theme.border_focus  = "#e2fcfb"
+theme.border_focus  = "#cdf1ef"
+-- theme.border_focus  = "#19e5e6"
 theme.border_marked = "#91231c"
 
 -- There are other variable sets
