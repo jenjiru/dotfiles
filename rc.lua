@@ -531,6 +531,6 @@ awful.spawn.with_shell("~/.fehbg")
 --awful.spawn.with_shell("alacritty -e sudo /opt/timeshift-setup.sh")
 
 -- compositor
-awful.spawn.with_shell("picom")
+-- awful.spawn.with_shell("picom")
 
 -- monitor(s)
