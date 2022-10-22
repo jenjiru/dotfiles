@@ -13,7 +13,7 @@ alias vim='nvim'
 alias nano='nvim'
 
 alias background='feh --bg-scale'
-alias arch-iso='/opt/arch-iso.sh'
+alias a-iso='/opt/arch-iso.sh'
 alias wlan='/opt/wlan-connect'
 alias kvm-network='sudo virsh net-start default'
 
