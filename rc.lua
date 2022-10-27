@@ -229,7 +229,12 @@ root.buttons(gears.table.join(
 -- }}}
 
 -- {{{ Key bindings
+
 globalkeys = gears.table.join(
+
+     -- My Bindings
+     awful.key({ modkey, "Shift" }, "s", function () awful.spawn.with_shell("flameshot gui") end),
+
     awful.key({ modkey,           }, "s",      hotkeys_popup.show_help,
               {description="show help", group="awesome"}),
     awful.key({ modkey,           }, "a",   awful.tag.viewprev,
@@ -519,7 +524,6 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- ---autostart---
 
 -- programs
--- awful.spawn.with_shell("redshift")
 awful.spawn.with_shell("flameshot")
 awful.spawn.with_shell("/opt/wm-program-check.sh")
 awful.spawn.with_shell("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1")
