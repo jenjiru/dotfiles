@@ -528,13 +528,13 @@ awful.spawn.with_shell("flameshot")
 awful.spawn.with_shell("/opt/wm-program-check.sh")
 awful.spawn.with_shell("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1")
 
--- bg
-awful.spawn.with_shell("~/.fehbg")
-
 -- other
 -- awful.spawn.with_shell("alacritty -e sudo /opt/timeshift-setup.sh")
 
+-- monitor(s)
+
+-- bg
+awful.spawn.with_shell("~/.fehbg")
+
 -- compositor
 awful.spawn.with_shell("picom")
-
--- monitor(s)
