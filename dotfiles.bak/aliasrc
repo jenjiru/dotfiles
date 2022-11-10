@@ -1,0 +1,26 @@
+alias sudo='sudo '
+
+alias ..='cd ..'
+
+alias yay='paru'
+alias yeet='paru -Rcs'
+alias grep='rg'
+
+alias ns='nsxiv -a'
+
+alias v='nvim'
+alias vi='nvim'
+alias vim='nvim'
+alias nano='nvim'
+
+alias background='feh --bg-scale'
+alias a-iso='/opt/arch-iso.sh'
+alias wlan='/opt/wlan-connect'
+alias kvm-network='sudo virsh net-start default'
+
+alias ls='exa'
+alias la='ls -a'
+alias lsl='ls -l'
+alias lal='ls -la'
+
+alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
