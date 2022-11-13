@@ -4,7 +4,6 @@ alias ..='cd ..'
 
 alias yay='paru'
 alias yeet='paru -Rcs'
-alias grep='rg'
 
 alias ns='nsxiv -a'
 
