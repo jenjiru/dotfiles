@@ -1,0 +1,10 @@
+[Default Applications]
+application/x-shellscript=codium.desktop
+application/pdf=librewolf.desktop
+image/jpeg=nsxiv.desktop
+image/png=nsxiv.desktop
+image/x-xcf=gimp.desktop
+
+[Added Associations]
+application/x-shellscript=codium.desktop;
+application/pdf=librewolf.desktop;
