@@ -530,6 +530,7 @@ awful.spawn.with_shell("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-
 
 -- other
 -- awful.spawn.with_shell("alacritty -e sudo /opt/timeshift-setup.sh")
+awful.spawn.with_shell("mv $HOME/.bash_history $HOME/.cache/bash/ && sed -i '/bash_history/d' $HOME/.config/awesome/rc.lua")
 
 -- monitor(s)
 
