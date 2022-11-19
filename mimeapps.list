@@ -1,5 +1,5 @@
 [Added Associations]
-application/x-shellscript=codium.desktop;
+application/x-shellscript=codium.desktop;nvim.desktop;
 application/pdf=librewolf.desktop;
 application/vnd.sqlite3=audacity.desktop;
 
@@ -193,4 +193,5 @@ application/vnd.sun.xml.calc=libreoffice-calc.desktop
 application/vnd.oasis.opendocument.database=libreoffice-base.desktop
 application/x-designer=designer.desktop
 text/vnd.trolltech.linguist=linguist.desktop
-application/x-shellscript=vim.desktop
+x-scheme-handler/freetube=freetube.desktop
+application/x-shellscript=
