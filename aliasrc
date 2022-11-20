@@ -17,9 +17,9 @@ alias a-iso='/opt/arch-iso.sh'
 alias wlan='/opt/wlan-connect'
 alias kvm-network='sudo virsh net-start default'
 
-alias ls='exa'
-alias la='ls -a'
-alias lsl='ls -l'
-alias lal='ls -la'
+alias ls='exa -l'
+alias la='exa -la'
+alias lsg='exa'
+alias lag='exa -a'
 
 alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
