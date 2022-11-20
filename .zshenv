@@ -4,7 +4,7 @@ typeset -U PATH path
 # default apps
 export EDITOR="nvim"
 export TERMINAL="alacritty"
-export BROWSER="librewolf"
+export BROWSER="Librewolf"
 
 # Other XDG paths
 export XDG_DATA_HOME=${XDG_DATA_HOME:="$HOME/.local/share"}
@@ -29,5 +29,9 @@ export RIPGREP_CONFIG_PATH="$XDG_CONFIG_HOME/ripgrep/ripgreprc"
 export WGETRC="${XDG_CONFIG_HOME:-$HOME/.config}/wget/wgetrc"
 export LESSHISTFILE="-"
 
+# exa theming
+export EXA_COLORS="da=38;5;139"
+
 # cleaning ~
 #export ZDOTDIR="$HOME/.config/zsh"
+
