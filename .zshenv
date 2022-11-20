@@ -34,4 +34,3 @@ export EXA_COLORS="da=38;5;139"
 
 # cleaning ~
 #export ZDOTDIR="$HOME/.config/zsh"
-
