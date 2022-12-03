@@ -321,6 +321,10 @@ globalkeys = gears.table.join(
     awful.spawn.with_shell("rofi -show drun") end,
               {description = "run prompt", group = "launcher"}),
 
+    awful.key({ modkey, "Shift" },            "r",     function ()
+    awful.spawn.with_shell("/opt/rofisudo.sh rofi -show drun") end,
+              {description = "root run prompt", group = "launcher"}),
+
     awful.key({ modkey }, "x",
               function ()
                   awful.prompt.run {
