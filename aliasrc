@@ -17,9 +17,19 @@ alias a-iso='/opt/arch-iso.sh'
 alias wlan='/opt/wlan-connect'
 alias kvm-network='sudo virsh net-start default'
 
+alias v-ifums='v $HOME/documents/github/ifums/ifums.sh'
+alias v-main='v $HOME/documents/github/ifums/main-pc.sh'
+
 alias ls='exa -l'
 alias la='exa -la'
 alias lsg='exa'
 alias lag='exa -a'
+
+#alias cp='cp -gR'
+#alias mv='mv -g'
+#alias cp=cpg -g
+#alias cpr=cpg -gr
+#alias mv=mvg -g
+#alias mvr=mvg -gr
 
 alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
