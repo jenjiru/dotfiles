@@ -33,4 +33,13 @@ alias lag='exa -a'
 #alias mv=mvg -g
 #alias mvr=mvg -gr
 
+alias vpn='sudo surfshark-vpn'
+alias vpn-help='sudo surfshark-vpn help'
+alias vpn-connect='sudo surfshark-vpn attack'
+alias vpn-multi='sudo surfshark-vpn multi'
+alias vpn-off='sudo surfshark-vpn down'
+alias vpn-status='sudo surfshark-vpn status'
+alias vpn-logout='sudo surfshark-vpn forget'
+alias vpn-version='sudo surfshark-vpn version'
+
 alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
