@@ -5,6 +5,7 @@ alias ..='cd ..'
 alias yay='paru'
 alias yeet='paru -Rcs'
 alias clean='paru -Rsn $(paru -Qdtq)'
+alias off-after-update='clear && echo ############################################ && echo # PC will update and then POWEROFF in 10s! # && echo ############################################ && sleep 10 && paru -Syu --noconfirm && poweroff'
 
 alias ns='nsxiv -a'
 
