@@ -17,7 +17,7 @@ alias background='feh --bg-scale'
 alias a-iso='/opt/arch-iso.sh'
 alias wlan='/opt/wlan-connect'
 alias kvm-network='sudo virsh net-start default'
-alias torrent='aria2c --seed-time=0.01 -d $HOME/downloads' 
+alias torrent='aria2c --seed-time=0.01 -u 0 -d $HOME/downloads' 
 
 alias v-ifums='v $HOME/documents/github/ifums/ifums.sh'
 alias v-main='v $HOME/documents/github/ifums/main-pc.sh'
