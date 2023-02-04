@@ -3,8 +3,6 @@ typeset -U PATH path
 
 # default apps
 export EDITOR="nvim"
-export TERMINAL="alacritty"
-export BROWSER="Librewolf"
 
 # Other XDG paths
 export XDG_DATA_HOME=${XDG_DATA_HOME:="$HOME/.local/share"}
