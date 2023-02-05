@@ -4,7 +4,7 @@ alias ..='cd ..'
 
 alias yay='paru'
 alias yeet='paru -Rcs'
-alias clean='paru -Rsn $(paru -Qdtq)'
+alias clean='paru -Rsn $(paru -Qdtq) 2>/dev/null || echo Nothing to clean'
 
 alias ns='nsxiv -a'
 
