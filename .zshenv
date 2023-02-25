@@ -32,5 +32,8 @@ export LESSHISTFILE="-"
 # exa theming
 export EXA_COLORS="da=38;5;139"
 
+# MangoHud
+export MANGOHUD=1
+
 # cleaning ~
 #export ZDOTDIR="$HOME/.config/zsh"
