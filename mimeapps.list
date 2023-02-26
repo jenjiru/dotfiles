@@ -1,7 +1,7 @@
 [Added Associations]
 application/x-shellscript=codium.desktop;nvim.desktop;
-application/pdf=librewolf.desktop;
 application/vnd.sqlite3=audacity.desktop;
+text/x-csrc=codium.desktop;
 
 [Default Applications]
 image/x-xcf=gimp.desktop
@@ -156,7 +156,7 @@ x-scheme-handler/ms-word=libreoffice-startcenter.desktop
 x-scheme-handler/ms-excel=libreoffice-startcenter.desktop
 x-scheme-handler/ms-visio=libreoffice-startcenter.desktop
 x-scheme-handler/vnd.libreoffice.command=libreoffice-startcenter.desktop
-application/pdf=librewolf.desktop
+application/pdf=org.gnome.Evince.desktop
 application/vnd.sun.xml.draw=libreoffice-draw.desktop
 application/vnd.sun.xml.draw.template=libreoffice-draw.desktop
 application/vnd.oasis.opendocument.graphics-flat-xml=libreoffice-draw.desktop
@@ -195,3 +195,4 @@ application/x-designer=designer.desktop
 text/vnd.trolltech.linguist=linguist.desktop
 x-scheme-handler/freetube=freetube.desktop
 application/x-shellscript=
+text/x-csrc=codium.desktop
