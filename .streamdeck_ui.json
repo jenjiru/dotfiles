@@ -5,11 +5,11 @@
             "buttons": {
                 "0": {
                     "0": {
-                        "keys": "alt+F1",
+                        "keys": "alt+F6",
                         "icon": "/usr/share/streamdeck/pictures/microphone.png"
                     },
                     "1": {
-			"keys": "alt+F2",
+                        "keys": "alt+F7",
                         "icon": "/usr/share/streamdeck/pictures/headphones.png"
                     },
                     "2": {},
