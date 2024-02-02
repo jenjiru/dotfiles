@@ -6,6 +6,8 @@ alias yay='paru'
 alias yeet='paru -Rcs'
 alias clean='paru -Rsn $(paru -Qdtq) 2>/dev/null || echo Nothing to clean'
 
+alias bios-reboot='systemctl reboot --firmware-setup'
+
 alias ns='nsxiv -a'
 
 alias v='nvim'
