@@ -16,7 +16,7 @@ alias vim='nvim'
 alias nano='nvim'
 
 alias background='feh --bg-scale'
-alias a-iso='/opt/arch-iso.sh'
+alias a-iso='/opt/arch-iso.sh > /dev/null  2>&1 & disown'
 alias wlan='/opt/wlan-connect'
 alias kvm-network='sudo virsh net-start default'
 alias torrent='aria2c --seed-time=0.01 -u 0 -d $HOME/downloads' 
