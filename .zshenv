@@ -37,3 +37,5 @@ export MANGOHUD=1
 
 # cleaning ~
 #export ZDOTDIR="$HOME/.config/zsh"
+
+export DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/$(id -u)/bus"
