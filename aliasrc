@@ -5,6 +5,7 @@ alias ..='cd ..'
 alias yay='paru'
 alias yeet='paru -Rcs'
 alias clean='paru -Rsn $(paru -Qdtq) 2>/dev/null || echo Nothing to clean'
+alias install='paru -Sy $@ --needed'
 
 alias bios-reboot='systemctl reboot --firmware-setup'
 
