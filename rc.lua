@@ -540,6 +540,3 @@ awful.spawn.with_shell("mv $HOME/.bash_history $HOME/.cache/bash/ && sed -i '/ba
 
 -- bg
 awful.spawn.with_shell("~/.fehbg")
-
--- compositor
-awful.spawn.with_shell("picom")
