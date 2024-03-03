@@ -322,7 +322,7 @@ globalkeys = gears.table.join(
               {description = "run prompt", group = "launcher"}),
 
     awful.key({ modkey, "Shift" },            "r",     function ()
-    awful.spawn.with_shell("/opt/rofisudo.sh rofi -show drun") end,
+    awful.spawn.with_shell("rofisudo rofi -show drun") end,
               {description = "root run prompt", group = "launcher"}),
 
     awful.key({ modkey }, "x",
@@ -529,14 +529,21 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 
 -- programs
 awful.spawn.with_shell("flameshot")
-awful.spawn.with_shell("/opt/wm-program-check.sh")
+awful.spawn.with_shell("wm-program-check")
 awful.spawn.with_shell("lxsession")
 
 -- other
--- awful.spawn.with_shell("alacritty -e sudo /opt/timeshift-setup.sh")
-awful.spawn.with_shell("mv $HOME/.bash_history $HOME/.cache/bash/ && sed -i '/bash_history/d' $HOME/.config/awesome/rc.lua")
+-- awful.spawn.with_shell("alacritty -e sudo timeshift-setup")
 
 -- monitor(s)
+awful.spawn.with_shell("xrandr --output DisplayPort-0 --mode 3840x2160 --pos 1920x0 --rate 119.99 --output DisplayPort-1 --mode 1920x1080 --pos 0x0 --rate 74.97 --output HDMI-A-0 --mode 1920x1080 --pos 5760x0 --rate 74.97")
 
 -- bg
 awful.spawn.with_shell("~/.fehbg")
+
+-- syncthing
+awful.spawn.with_shell("syncthing")
+
+-- Picom
+awful.spawn.with_shell("picom")
+awful.spawn.with_shell("alacritty -e sudo timeshift --check")
