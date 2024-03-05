@@ -546,4 +546,5 @@ awful.spawn.with_shell("syncthing")
 
 -- Picom
 awful.spawn.with_shell("picom")
-awful.spawn.with_shell("alacritty -e sudo timeshift --check")
+
+awful.spawn.with_shell("pactl set-sink-volume @DEFAULT_SINK@ 100%")
