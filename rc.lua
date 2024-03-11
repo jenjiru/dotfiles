@@ -280,7 +280,7 @@ globalkeys = gears.table.join(
         {description = "go back", group = "client"}),
 
     -- Standard program
-    awful.key({ modkey,           }, "Return", function () awful.spawn(terminal) end,
+    awful.key({ modkey,           }, "q", function () awful.spawn(terminal) end,
               {description = "open a terminal", group = "launcher"}),
     awful.key({ modkey, "Control" }, "r", awesome.restart,
               {description = "reload awesome", group = "awesome"}),
@@ -537,6 +537,7 @@ awful.spawn.with_shell("lxsession")
 
 -- monitor(s)
 awful.spawn.with_shell("xrandr --output DisplayPort-0 --mode 3840x2160 --pos 1920x0 --rate 119.99 --output DisplayPort-1 --mode 1920x1080 --pos 0x0 --rate 74.97 --output HDMI-A-0 --mode 1920x1080 --pos 5760x0 --rate 74.97")
+awful.spawn.with_shell("xrandr --output DisplayPort-0 --mode 3840x2160 --pos 1920x0 --rate 119.99 --output DisplayPort-1 --mode 1920x1080 --pos 0x0 --rate 74.97 --output HDMI-A-0 --mode 1920x1080 --pos 5760x0 --rate 74.97")
 
 -- bg
 awful.spawn.with_shell("~/.fehbg")
@@ -548,3 +549,6 @@ awful.spawn.with_shell("syncthing")
 awful.spawn.with_shell("picom")
 
 awful.spawn.with_shell("pactl set-sink-volume @DEFAULT_SINK@ 100%")
+
+-- syncthing
+awful.spawn.with_shell("syncthing")
