@@ -22,6 +22,8 @@ alias wlan='/opt/wlan-connect'
 alias kvm-network='sudo virsh net-start default'
 alias torrent='aria2c --seed-time=0.01 -u 0 -d $HOME/downloads' 
 
+alias github-fix='gnome-keyring-daemon -r -d'
+
 # alias steam='gamescope -f --expose-wayland -W 3840 -H 2160 -e -- steam'
 
 alias v-nova='v $HOME/documents/github/nova/nova.sh'
