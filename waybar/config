@@ -5,7 +5,7 @@
     // "width": 1280, // Waybar width
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
-    "modules-left": ["hyprland/workspaces", "sway/mode", "sway/scratchpad", "custom/media"],
+    "modules-left": ["hyprland/workspaces", "custom/media"],
     "modules-center": ["sway/window"],
     "modules-right": ["clock", "tray"],
      // Modules configuration
@@ -13,17 +13,36 @@
          "disable-scroll": true,
          "all-outputs": false,
          "warp-on-scroll": false,
-         //"format": "{name}: {icon}",
-         //"format-icons": {
-         //    "1": "",
-         //    "2": "",
-         //    "3": "",
-         //    "4": "",
-         //    "5": "",
-         //    "urgent": "",
-         //    "focused": "",
-         //    "default": ""
-         //}
+         "format": "{icon}",
+         "format-icons": {
+             "1": "1",
+             "2": "2",
+             "3": "3",
+             "4": "4",
+             "5": "5",
+	     "": "6",
+	     "": "7",
+	     "": "8",
+	     "": "9",
+	     "11": "1",
+	     "12": "2",
+	     "13": "3",
+	     "14": "4",
+	     "15": "5",
+	     "16": "6",
+	     "17": "7",
+	     "18": "8",
+	     "19": "9",
+	     "21": "1",
+	     "22": "2",
+	     "23": "3",
+	     "24": "4",
+	     "25": "5",
+	     "26": "6",
+	     "27": "7",
+	     "28": "8",
+	     "29": "9",
+         }
      },
     "keyboard-state": {
         "numlock": true,
